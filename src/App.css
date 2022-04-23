@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header{
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  /* background-color: rgb(54, 151, 30); */
+  margin: 0%;
+  height: 90vh;
+}
+.container{
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+.row{
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.home,
+.reports,
+.products {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+ text-align: center;
+  
+
+}
+.home h1{
+
+  font-size: 7rem;
+  font-weight: 800;
+
+  background: #0b0967; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0b0967, #2facaa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0b0967, #2facaa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+.cont {
+	width: 100%;
+	height: 100%;
+	background-color: #137bc5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-top: 8%;
+ 
+}
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  background-color: #5e1919;
+
+}
+
+.mouse {
+	width: 25px;
+	height: 45px;
+	border: 2px solid rgb(1, 9, 53);
+	border-radius: 60px;
+	position: relative;
+
+}
+  .mouse::before {
+		content: '';
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: rgb(13, 139, 212);
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  z-index: -999;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 22px;
+  height: 22px;
+  border-bottom: 2px solid rgba(6, 0, 31, 0.678);
+  border-right: 2px solid rgb(5, 121, 175);
+  /* z-index: 9; */
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 2s ease-in-out infinite;
+  -moz-animation:    fade_move_down 2s ease-in-out infinite;
+  animation:         fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+.blog-header {
+  /* background-color: rgb(150, 77, 91); */
+  background: url(./images/keyboard.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 6%;
+}
+.blog-header h1{
+  font-size: 80px;
+  background: #0b0967; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0aaddf, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0aaddf, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
