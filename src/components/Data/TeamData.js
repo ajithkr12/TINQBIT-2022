@@ -1,0 +1,77 @@
+
+export const TeamData = [
+  {
+    name: 'Sumi Mary Shibu',
+    position: 'Co-founder & CEO',
+    description: 'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/sumi.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+
+  {
+    name: 'Nikhil A',
+    position: 'Co-founder & CEO',
+    description: 'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/nikhil.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+   {
+    name: 'Sreejith Shaji',
+    position: 'Co-founder & CEO',
+    description:'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/sreejith.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+  {
+    name: 'Akash philip',
+    position: 'Co-founder & CEO',
+    description:'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/akash.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+    {
+    name: 'Vignesh S N',
+    position: 'Co-founder & CEO',
+    description:'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/wiki.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+
+  {
+    name: 'Mary James',
+    position: 'Co-founder & CEO',
+    description:'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/merry.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+   {
+    name: 'Ajith K R',
+    position: 'Co-founder & CEO',
+    description: 'Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.',
+    img:"/images/team/ajith.png",
+    fb:"",
+    tw:"",
+    ins:"",
+    lik:"",
+  },
+
+
+];
